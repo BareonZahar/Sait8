@@ -24,11 +24,11 @@ background: linear-gradient(to top, #1aff00 20%, #864076 50%, #0080ff 90%);
     .minutes {
 position: absolute;
 width: 3px;
-height: 100px;
-left: 146px;
-top: 46px;
+height: 101px;
+left: 148px;
+top: 47px;
 background: red;
-animation: now 1600s infinite steps(1600);
+animation: now 60s infinite steps(60);
 transform-origin: 0 100px;
 }
     @keyframes now {
@@ -43,7 +43,7 @@ height: 144px;
 left: 148px;
 top: 4px;
 background:blue;
-animation: nev 60s infinite steps(60);
+animation: nev 1000ms infinite steps(1000);
 transform-origin: 0 143px;
 }
 @keyframes nev {
